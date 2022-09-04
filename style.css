@@ -66,5 +66,12 @@ body {
     color: #fff;
     padding: 16px 0;
     cursor: pointer;
+    opacity: 0.6;
     background-color: #17a2b8;
+    pointer-events: none;
+}
+
+.wrapper textarea:valid ~ .save-btn {
+    opacity: 1;
+    pointer-events: auto;
 }
